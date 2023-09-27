@@ -1,0 +1,161 @@
+.navbar{
+    background-color: var(--main-color);
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+.search{
+    width: 50%;
+    position: relative;
+}
+
+input{
+    padding-left: 10px;
+    color: black !important;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    transition-duration: 1s;
+}
+
+input:focus{
+    box-shadow: 5px 2px 5pt 0.5pt #D3D3D3;
+    transition-duration: 1s;
+}
+
+input:focus{
+    outline: none;
+}
+
+/*$######################$*/
+
+.drow-down:hover + .content{
+    visibility: visible;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.content{
+    position: absolute;
+    visibility: hidden;
+    transform: translateY(20px);
+    border: 2px solid var(--main-color);
+    z-index: 100 !important;
+    background-color: white;
+    transition-duration: 0.3s;
+    opacity: 0;
+
+}
+
+.content:hover{
+    visibility: visible;
+    transition-duration: 0.3s;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+.side-bar a{
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+.side-bar a:hover{
+    background-color: var(--main-color);
+    color: white !important;
+    transform: translateX(10px);
+    transition-duration: 0.3s;
+}
+
+.burger{
+    display: none;
+    font-size:x-large;
+
+}
+
+.icons-user{
+    font-size: x-large;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+@media (max-width:767px) {
+    .hide-on-sm-dropdown{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+    .navbar{
+        justify-content: space-evenly !important;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .search{
+        order: 10;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+.burger{
+    cursor: pointer;
+}
+
+.sider{
+    top: -100vh;
+    transition-duration: 0.5s;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+    background-image: linear-gradient(var(--main-color), #93117d87);
+}
+
+.sider-open{
+    color: black !important;
+    top: 0;
+    transition-duration: 0.5s;
+
+}
+
+.search-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+svg:hover{
+    cursor: pointer;
+    color: var(--pink);
+    transition-duration: 0.5s;
+}
+
+
+svg{
+    transition-duration: 0.5s;
+}
+
