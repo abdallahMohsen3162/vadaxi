@@ -8,7 +8,7 @@ export default function According() {
       <div className="accordion accordion-flush" id="accordionFlushExample">
         <div className="accordion-item">
             <h2 className="accordion-header">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <button className="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
             Category 1
             </button>
             </h2>
@@ -30,7 +30,7 @@ export default function According() {
     <div className="accordion accordion-flush" id="accordionFlushExample2">
         <div className="accordion-item">
             <h2 className="accordion-header">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
+            <button className="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
             Category 2
             </button>
             </h2>
@@ -54,7 +54,7 @@ export default function According() {
     <div className="accordion accordion-flush" id="accordionFlushExample3">
         <div className="accordion-item">
             <h2 className="accordion-header">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne3">
+            <button className="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne3">
             Category 3
             </button>
             </h2>
