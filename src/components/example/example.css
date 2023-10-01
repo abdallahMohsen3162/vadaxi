@@ -1,0 +1,38 @@
+.big-ex{
+    min-height: 100% !important;
+    width: 100%;
+    background-color: #ececec !important;
+    padding: 10px !important;
+    cursor: pointer;
+}
+
+.bucket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.small-ex{
+    width: 100%;
+    height: 50%;
+    background-color: #ececec !important;
+    padding: 10px !important;
+    cursor: pointer;
+}
+
+.small-ex:nth-child(1){
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.small-ex:nth-child(2){
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+
+.example div div div:Hover{
+    background-color: gray !important;
+    
+}

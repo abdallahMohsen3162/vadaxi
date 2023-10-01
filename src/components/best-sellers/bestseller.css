@@ -1,0 +1,37 @@
+.bs-sider{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.seller{
+    min-width: 200px;
+    height: 200px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seller:hover{
+    background-color: gray;
+}
+
+.ctrl{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:fit-content;
+    align-items: flex-start;
+    margin-top: 95px;
+    left: 0%;
+    z-index: 0;
+}
+
+
+.ctrl button{
+    background-color: transparent !important;
+}

@@ -12,7 +12,7 @@ const Videos = () => {
   const new_slider = new Slider(200,-200);
   let arr = [1,2,3,4,5,6,7,8,9,10,11,12,54,654,654,654,456,456];
   const {ref, scroll_left, scroll_right} = new_slider.useSlider();
-  const [flag , setFlag] = useState(false);
+  const [flag , setFlag] = useState(true);
 return (
   <div className='mt-2 container position-relative'>
 
@@ -33,7 +33,7 @@ return (
           {
               arr.map((el, idx) => {
                   return(
-                      <div className='video' key={idx+100}>
+                      <div className='video' key={idx+100} style={{cursor:"pointer"}}>
                            video number {el}
                       </div>
                   )

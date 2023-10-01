@@ -1,0 +1,22 @@
+.product{
+    color: white;
+    border: 1px solid white;
+}
+
+.basic-image{
+    padding: 10px;
+    height: 150px;
+    background-color: #eceeec;
+    position: relative;
+}
+
+.basic-image::before{
+    content: "Product picture";
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.rounded{
+    border-radius: 60px !important;
+}

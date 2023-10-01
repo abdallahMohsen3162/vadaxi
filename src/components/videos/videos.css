@@ -17,6 +17,11 @@
     scroll-behavior: smooth;
 }
 
+.video:hover{
+    opacity: 0.8;
+    z-index: -1;
+}
+
 .video, 
 .load div{
     min-width: 130px;
